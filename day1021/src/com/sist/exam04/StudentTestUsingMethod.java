@@ -8,7 +8,7 @@ public class StudentTestUsingMethod {
 	public static Scanner sc = new Scanner(System.in);
 	
 	public static void printMenu() {
-		System.out.print("1.추가, 2.검색, 3.삭제 4.모두출력 5.모두삭제 0.종료");
+		System.out.println("1.추가, 2.검색, 3.삭제, 4.모두출력, 5.모두삭제, 0.종료");
 		System.out.print("메뉴를 선택하세요-->");
 	} 
 	
@@ -89,7 +89,6 @@ public class StudentTestUsingMethod {
 
 		ArrayList<Student> list = new ArrayList<Student>();
 		
-		String name,addr,phone;
 		while(true) {
 			printMenu(); 			//메소드 호출
 			int menu = sc.nextInt();

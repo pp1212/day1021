@@ -13,7 +13,7 @@ public class StudentTest {
 		
 		String name,addr,phone;
 		while(true) {
-			System.out.print("1.추가, 2.검색, 3.삭제 4.모두출력 5.모두삭제 0.종료");
+			System.out.print("1.추가, 2.검색, 3.삭제, 4.모두출력, 5.모두삭제, 0.종료");
 			int menu = sc.nextInt();
 			if(menu == 0) {
 				break;
